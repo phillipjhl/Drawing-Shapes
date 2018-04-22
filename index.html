@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Drawing Shapes</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header class="input-fields">
+        <form action="" id="rectangle">
+            <h3>Rectangle:</h1>
+                <input type="number" placeholder="Width">
+                <input type="number" placeholder="Height">
+                <input type="button" value="Insert">
+        </form>
+        <form action="" id="square">
+            <h3>Square:</h3>
+            <input type="number" placeholder="Length">
+            <input type="button" value="Insert">
+        </form>
+        <form action="" id="circle">
+            <h3>Circle:</h3>
+            <input type="number" placeholder="Radius">
+            <input type="button" value="Insert">
+        </form>
+        <form action="" id="triangle">
+            <h3>Triangle:</h3>
+            <input type="number" placeholder="Height">
+            <input type="button" value="Insert">
+        </form>
+    </header>
+
+
+    <section id="drawing-board">
+        <div id="sidepanel">
+            <ul id="metrics">
+                <h5 id="shape-type"></h5>
+                <li id="shape-width"></li>
+                <li id="shaape-height"></li>
+                <li id="shape-radius"></li>
+                <li id="shape-area"></li>
+                <li id="shape-perimeter"></li>
+            </ul>
+        </div>
+        <div id="canvas"></div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
