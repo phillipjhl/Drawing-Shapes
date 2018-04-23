@@ -13,7 +13,7 @@ form {
     border: black;
     border-style: ridge;
     height: 600px;
-    width: 10em;
+    width: 20em;
     padding: 5px;
     margin-right: 10px;
 }
@@ -35,4 +35,13 @@ form {
 }
 .shape {
     position: absolute;
+}
+.rectangle {
+    background-color: green;
+}
+.circle {
+	background: purple;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	border-radius: 50%;
 }

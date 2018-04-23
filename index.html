@@ -14,23 +14,23 @@
     <header class="input-fields">
         <form action="" id="rectangle">
             <h3>Rectangle:</h1>
-                <input type="number" placeholder="Width">
-                <input type="number" placeholder="Height">
+                <input id="rectangle-width" type="number" placeholder="Width">
+                <input id="rectangle-height" type="number" placeholder="Height">
                 <input id="insert-rectangle" type="button" value="Insert">
         </form>
         <form action="" id="square">
             <h3>Square:</h3>
-            <input type="number" placeholder="Length">
+            <input id="square-length" type="number" placeholder="Length">
             <input id="insert-square" type="button" value="Insert">
         </form>
         <form action="" id="circle">
             <h3>Circle:</h3>
-            <input type="number" placeholder="Radius">
+            <input id="circle-radius" type="number" placeholder="Radius">
             <input id="insert-circle" type="button" value="Insert">
         </form>
         <form action="" id="triangle">
             <h3>Triangle:</h3>
-            <input type="number" placeholder="Height">
+            <input id="triangle-height" type="number" placeholder="Height">
             <input id="insert-triangle" type="button" value="Insert">
         </form>
     </header>
@@ -39,12 +39,12 @@
     <section id="drawing-board">
         <div id="sidepanel">
             <ul id="metrics">
-                <h5 id="shape-type"></h5>
-                <li id="shape-width"></li>
-                <li id="shaape-height"></li>
-                <li id="shape-radius"></li>
-                <li id="shape-area"></li>
-                <li id="shape-perimeter"></li>
+                <h5 id="shape-name">Shape Name: <span></span> </h5>
+                <li id="shape-width">Width: <span></span> </li>
+                <li id="shape-height">Height: <span></span> </li>
+                <li id="shape-radius">Radius: <span></span> </li>
+                <li id="shape-area">Area: <span></span> </li>
+                <li id="shape-perimeter">Perimeter: <span></span> </li>
             </ul>
         </div>
         <div id="canvas"></div>
