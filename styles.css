@@ -26,9 +26,13 @@ form {
 #canvas {
     display: inline-block;
     float: left;
+    position: relative;
     border: black ridge;
     padding: 5px;
     height: 600px;
     width: 600px;
     background-color: lightgray;
+}
+.shape {
+    position: absolute;
 }
